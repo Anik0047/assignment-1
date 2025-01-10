@@ -7,6 +7,7 @@ body {
   /* border: 1px solid black; */
   width: 1280px;
   margin: 0 auto;
+  background-color: #f5f5f5;
 }
 /* Navbar start */
 .nav_container {
@@ -27,7 +28,6 @@ body {
   padding: 15px 30px;
   border: 1px solid #006a50;
   border-radius: 8px;
-  background-color: white;
 }
 /* Navbar end */
 
@@ -60,4 +60,111 @@ body {
   border: none;
   border-radius: 8px;
   background-color: #006a50;
+}
+/* Banner end */
+
+/* Pillars of "Bangladesh 2.0" start */
+.pillars_container {
+  margin-top: 80px;
+}
+.pillars_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+.pillars_cards_box {
+  display: flex;
+  gap: 24px;
+}
+.pillars_card {
+  width: 302px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+}
+.pillars_card_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 24px 0 12px 0;
+}
+.pillars_card_desc {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+/* Pillars of "Bangladesh 2.0" end */
+
+/* The Vision of Future start */
+.vision_container {
+  margin-top: 80px;
+}
+.vision_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision_desc {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.vision_cards_box {
+  display: flex;
+  gap: 24px;
+}
+.vision_common {
+  width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision_common .vision_img_box {
+  width: 64px;
+}
+.vision_common .vision_img_box img {
+  width: 100%;
+}
+.vision_card_one {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision_card_two {
+  background-color: rgba(198, 228, 214, 1);
+}
+.vision_card_three {
+  background-color: rgba(247, 235, 207, 1);
+}
+.vision_card_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 24px 0 12px 0;
+}
+.vision_card_desc {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+.vision_btn {
+  font-weight: 600;
+  color: white;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+.vision_card_one button {
+  background-color: #5490f5;
+}
+.vision_card_two button {
+  background-color: #09a15c;
+  margin-top: 25px;
+}
+.vision_card_three button {
+  background-color: #ffc239;
+}
+/* The Vision of Future end */
+
+/* Republic of Bangladesh start */
+.republic_container {
+  margin-top: 32px;
 }
