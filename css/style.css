@@ -4,10 +4,27 @@
   font-family: "Fira Sans", serif;
 }
 body {
+  background-color: #f5f5f5;
+}
+
+header,
+main {
   /* border: 1px solid black; */
   width: 1280px;
   margin: 0 auto;
-  background-color: #f5f5f5;
+}
+.common_btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  background-color: #006a50;
+  transition: transform 0.5s;
+}
+.common_btn:hover {
+  transform: translateX(10px);
 }
 /* Navbar start */
 .nav_container {
@@ -28,6 +45,10 @@ body {
   padding: 15px 30px;
   border: 1px solid #006a50;
   border-radius: 8px;
+}
+.nav_btn:hover {
+  background-color: #006a50;
+  color: white;
 }
 /* Navbar end */
 
@@ -52,15 +73,7 @@ body {
   font-weight: bold;
   margin-bottom: 24px;
 }
-.common_btn {
-  font-size: 18px;
-  font-weight: 500;
-  color: white;
-  padding: 17px 34px;
-  border: none;
-  border-radius: 8px;
-  background-color: #006a50;
-}
+
 /* Banner end */
 
 /* Pillars of "Bangladesh 2.0" start */
@@ -82,6 +95,10 @@ body {
   background-color: white;
   padding: 24px;
   border-radius: 16px;
+  transition: background-color 0.5s;
+}
+.pillars_card:hover {
+  background-color: rgba(198, 228, 214, 1);
 }
 .pillars_card_title {
   font-size: 20px;
@@ -151,6 +168,10 @@ body {
   padding: 11px 20px;
   border-radius: 8px;
   border: none;
+  transition: transform 0.5s;
+}
+.vision_btn:hover {
+  transform: translateY(-10px);
 }
 .vision_card_one button {
   background-color: #5490f5;
@@ -241,3 +262,176 @@ body {
   font-size: 15px;
 }
 /* Your Opinion Matters end  */
+
+/* Recent News start */
+.news_container {
+  margin-top: 80px;
+}
+.news_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.news_desc {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.news_card {
+  padding: 48px;
+  display: flex;
+  gap: 32px;
+  background-color: white;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+.news_img img {
+  border-radius: 24px;
+}
+.news_info_title {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.news_info img {
+  margin-bottom: 12px;
+}
+.news_card_date,
+.news_card_desc {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 12px;
+}
+.news_card_date span {
+  margin-left: 15px;
+}
+.news_card_desc {
+  margin-bottom: 32px;
+}
+/* Recent News end */
+
+/* Donate Today start */
+.donate_container {
+  margin-top: 80px;
+}
+.donate_title,
+.donate_desc {
+  text-align: center;
+}
+.donate_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.donate_desc {
+  padding: 0 88px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.donate_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 104px;
+  margin-bottom: 32px;
+}
+.donate_card {
+  padding: 40px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+}
+.donate_card:hover {
+  background-color: #c6e4d6;
+}
+.donate_card p {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+.donate_container input {
+  width: 1032px;
+  height: 64px;
+  margin: 0 124px;
+  margin-bottom: 32px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate_container input[type="text"] {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.3);
+}
+.donate_btn {
+  text-align: center;
+}
+/* Donate Today end */
+.subcribe_container {
+  margin-top: 80px;
+  text-align: center;
+  padding: 80px 0;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.subcribe_container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 16px;
+}
+.subcribe_container > p {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+.subcribe_input_box {
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.subcribe_input_box input {
+  width: 520px;
+  padding: 18px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+  outline: none;
+  border-radius: 6px 0 0 6px;
+}
+.subcribe_input_box button {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 15px 34px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 0 6px 6px 0;
+}
+.alert {
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* footer start */
+.footer {
+  margin-top: 80px;
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+}
+.footer h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.footer hr {
+  width: 1122px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  border-color: rgba(14, 14, 14, 0.1);
+}
+.footer img {
+  margin-right: 15px;
+}
