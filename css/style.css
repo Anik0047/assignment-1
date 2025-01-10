@@ -8,7 +8,7 @@ body {
   width: 1280px;
   margin: 0 auto;
 }
-/* Navbar */
+/* Navbar start */
 .nav_container {
   display: flex;
   justify-content: space-between;
@@ -28,4 +28,36 @@ body {
   border: 1px solid #006a50;
   border-radius: 8px;
   background-color: white;
+}
+/* Navbar end */
+
+/* Banner start */
+.banner_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 80px 60px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.banner_title {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+.banner_desc {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.common_btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 8px;
+  background-color: #006a50;
 }
