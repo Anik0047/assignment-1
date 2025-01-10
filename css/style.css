@@ -167,4 +167,77 @@ body {
 /* Republic of Bangladesh start */
 .republic_container {
   margin-top: 32px;
+  padding: 48px 24px;
+  background-color: white;
+  border-radius: 16px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top 20px left 22px;
 }
+.republic_desc {
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.republic_tile {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 4px;
+}
+.republic_sub-tile {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.6);
+}
+/* Republic of Bangladesh end */
+
+/* Your Opinion Matters start */
+.opinion_container {
+  margin-top: 80px;
+}
+.opinion_title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.question_box {
+  padding: 32px;
+  background-color: white;
+  border-radius: 16px;
+}
+.question_title_box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e0e0e;
+  background-color: #c6e4d6;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+.question_list {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.list_box {
+  width: 1017px;
+  padding: 36px 0 36px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.question_list button {
+  padding: 10px 16px;
+  font-weight: 500;
+  background-color: #c6e4d6;
+  border-radius: 4px;
+}
+.list_btn {
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.list_btn i {
+  font-size: 15px;
+}
+/* Your Opinion Matters end  */
